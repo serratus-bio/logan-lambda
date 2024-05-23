@@ -68,7 +68,3 @@ export const handler = async event => {
     statusCode:200
   };
 };
-
-// console.log(await handler({ body:JSON.stringify({ SRA:'DRR201391', contig:['DRR201391_22', 'DRR201391_24', 'DRR201391_2000'] }), headers:{ authorization:'Bearer 20240522' }, requestContext:{ http:{ method:'POST' } } }));
-
-// curl -H 'Authorization: Bearer 20240522' -H 'Content-Type: application/json' -X POST -d '{"SRA":"DRR201391","contig":["DRR201391_22","DRR201391_23","DRR201391_24"]}' https://ag63ar36qwfndxxfc32b3w57oy0wcugc.lambda-url.us-east-1.on.aws
