@@ -4,7 +4,7 @@ A node.js module for AWS Lambda that retrieves individual contigs from the logan
 
 ## Input
 
-* An SRA library id that will be used to fetch the resource https://logan-pub.s3.amazonaws.com/c/\<SRA>/\<SRA>.contigs.fa.zst.
+* An SRA library id that will be used to fetch the resource https://logan-pub.s3.amazonaws.com/c/\<SRA\>/\<SRA\>.contigs.fa.zst.
 
 * A list of contig ids that will be extracted from the file.
 
